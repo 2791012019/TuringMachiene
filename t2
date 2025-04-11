@@ -35,6 +35,7 @@ wr00st,Q,Q,L,wr00
 wr00st,O,O,L,wr00
 wr00,0,Q,L,backst
 wr00,1,O,L,backst
+wr00,x,Q,L,backst
 read,1,x,R,wr11st
 wr11st,0,0,R,wr11st
 wr11st,1,1,R,wr11st
@@ -43,6 +44,7 @@ wr11st,Q,Q,L,wr11
 wr11st,O,O,L,wr11
 wr11,0,O,L,backst
 wr11,1,Q,L,carry
+wr11,x,O,L,backst
 read,B,B,R,end0
 end0,0,Q,R,end0
 end0,1,O,R,end0
